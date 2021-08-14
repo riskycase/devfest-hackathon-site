@@ -3,17 +3,17 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 
-const ContactPage = ({ data: { site } }) => {
+const FAQPage = ({ data: { site } }) => {
   return (
     <Layout>
       <Helmet>
-        <title>Contact — {site.siteMetadata.title}</title>
+        <title>FAQ — {site.siteMetadata.title}</title>
         <meta
           name="description"
-          content={"Contact page of " + site.siteMetadata.description}
+          content={"FAQ page of " + site.siteMetadata.description}
         />
       </Helmet>
-      <div className="two-grids -contact">
+      <div className="two-grids -FAQ">
         <div
           className="post-thumbnail"
           style={{
@@ -27,7 +27,7 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <form
             className="form-container"
-            action="https://sendmail.w3layouts.com/SubmitContactForm"
+            action="https://sendmail.w3layouts.com/SubmitFAQForm"
             method="post"
           >
             <div>
@@ -59,9 +59,9 @@ const ContactPage = ({ data: { site } }) => {
     </Layout>
   );
 };
-export default ContactPage;
+export default FAQPage;
 export const pageQuery = graphql`
-  query ContactPageQuery {
+  query FAQPageQuery {
     site {
       siteMetadata {
         title
