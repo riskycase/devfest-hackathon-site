@@ -1,73 +1,73 @@
-.textsContainer{
-    width: 100%;
-    scroll-snap-type: y;
-    height: calc(100vh - 3.25rem);
-    overflow-y: auto;
+.textsContainer {
+  width: 100%;
+  scroll-snap-type: y;
+  height: calc(100vh - 3.25rem);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  .textBody {
+    scroll-snap-align: start;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
-    .textBody {
-        scroll-snap-align: start;
-        margin: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        max-width: 80%;
-        .textSender {
-            padding: 1rem;
-            padding-bottom: 0;
-            margin: 0;
-            font-weight: 500;
-            font-size: 1.25rem;
-            width: calc(100% - 2rem);
-            border-radius: 0.5rem 0.5rem 0 0;
-            background-color: var(--featured-bg);
-            color: var(--featured-text);
-        }
-        .textContent {
-            padding: 1rem;
-            padding-top: 0.5rem;
-            border-top: solid var(--featured-text) 1px;
-            width: calc(100% - 2rem);
-            background-color: var(--featured-bg);
-            color: var(--featured-text);
-            > p {
-                width: calc(100% - 2rem);
-            }
-        }
+    max-width: 80%;
+    .textSender {
+      padding: 1rem;
+      padding-bottom: 0;
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.25rem;
+      width: calc(100% - 2rem);
+      border-radius: 0.5rem 0.5rem 0 0;
+      background-color: var(--featured-bg);
+      color: var(--featured-text);
     }
-}
-.textsContainer::-webkit-scrollbar{
-    width: 0.25rem;
-}
-.textsContainer::-webkit-scrollbar-thumb{
-    background-color: var(--featured-bg);
-}
-.textsContainer::-webkit-scrollbar-track{
-    background-color: var(--card-bdr);
-}
-.textBody::after{
-    content: "";
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    background-color: var(--featured-bg);
-}
-.left{
-    align-self: flex-start;
-    align-items: flex-start;
     .textContent {
-        border-radius: 0 0 0.5rem 0;
+      padding: 1rem;
+      padding-top: 0.5rem;
+      border-top: solid var(--featured-text) 1px;
+      width: calc(100% - 2rem);
+      background-color: var(--featured-bg);
+      color: var(--featured-text);
+      > p {
+        width: calc(100% - 2rem);
+      }
     }
+  }
 }
-.left::after{
-    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+.textsContainer::-webkit-scrollbar {
+  width: 0.25rem;
+}
+.textsContainer::-webkit-scrollbar-thumb {
+  background-color: var(--featured-bg);
+}
+.textsContainer::-webkit-scrollbar-track {
+  background-color: var(--card-bdr);
+}
+.textBody::after {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--featured-bg);
+}
+.left {
+  align-self: flex-start;
+  align-items: flex-start;
+  .textContent {
+    border-radius: 0 0 0.5rem 0;
+  }
+}
+.left::after {
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
 .right {
-    align-self: flex-end;
-    align-items: flex-end;
-    .textContent {
-        border-radius: 0.5rem 0.5rem 0 0.5rem;
-    }
+  align-self: flex-end;
+  align-items: flex-end;
+  .textContent {
+    border-radius: 0.5rem 0.5rem 0 0.5rem;
+  }
 }
-.right::after{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+.right::after {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
 }

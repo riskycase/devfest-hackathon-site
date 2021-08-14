@@ -135,16 +135,18 @@ export default () => (
             </p>
           )
         }
-      ].map((text, index) => text.sender == 'John' ? (
-        <div key={index} className={Styles.textBody+' '+Styles.left}>
-          <div className={Styles.textSender}>{text.sender}</div>
-          <div className={Styles.textContent}>{text.content}</div>
-        </div>
-      ) : (
-        <div key={index} className={Styles.textBody+' '+Styles.right}>
-          <div className={Styles.textContent}>{text.content}</div>
-        </div>
-      ));
+      ].map((text, index) =>
+        text.sender === "John" ? (
+          <div key={index} className={Styles.textBody + " " + Styles.left}>
+            <div className={Styles.textSender}>{text.sender}</div>
+            <div className={Styles.textContent}>{text.content}</div>
+          </div>
+        ) : (
+          <div key={index} className={Styles.textBody + " " + Styles.right}>
+            <div className={Styles.textContent}>{text.content}</div>
+          </div>
+        )
+      );
       return (
         <div className="hero-header">
           <div className="headline">{data.site.siteMetadata.home.title}</div>
