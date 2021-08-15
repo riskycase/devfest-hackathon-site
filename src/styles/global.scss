@@ -215,43 +215,10 @@ a {
   }
 }
 .grids {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  margin-top: 2rem;
-}
-.card {
-  display: grid;
-  background-color: var(--card-bg);
-  border-radius: 0.5rem;
-  border: 1px solid var(--card-bdr);
-  box-shadow: 0 0 2rem var(--card-shadow);
-  overflow: hidden;
-  line-height: 1.5;
-  &:hover .post-link {
-    color: var(--primary-color);
-  }
-  > a img {
-    display: block;
-  }
-  > header {
-    padding: 1.5rem;
-  }
-  > h2:first-child {
-    margin: 0 0 0.5rem 0;
-  }
-  .post-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-  }
-  .post-meta {
-    font-weight: 100;
-    margin-bottom: 0;
-  }
-  .post-link {
-    color: var(--text-color);
-    text-decoration: none;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .post-meta {
   font-size: 0.8rem;

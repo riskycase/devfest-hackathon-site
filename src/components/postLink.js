@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
+import Styles from "./postLink.module.scss";
 
 const PostLink = ({ post }) => (
-  <article className="card ">
+  <article className={Styles.card}>
     <Link to={post.frontmatter.path}>
       {!!post.frontmatter.thumbnail && (
         <img
@@ -12,12 +13,11 @@ const PostLink = ({ post }) => (
       )}
     </Link>
     <header>
-      <h2 className="post-title">
+      <h2 className={Styles.postTitle}>
         <Link to={post.frontmatter.path} className="post-link">
           {post.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta">{post.frontmatter.date}</div>
     </header>
   </article>
 );

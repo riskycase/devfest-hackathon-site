@@ -44,6 +44,7 @@
             height: calc(var(--size) / 8);
             width: var(--size);
             background-color: var(--secondary-text);
+            border: solid var(--primary-color) 1px;
             transition: transform var(--transition-time);
           }
           .lineContainer2 {
