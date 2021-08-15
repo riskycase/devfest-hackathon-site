@@ -179,14 +179,17 @@ class FAQ extends React.Component {
       >
         <div className={Styles.questionContainer}>
           {qa.question}
-          <div className={Styles.expandIcon}>
-            +
-            {/* <div className={Styles.lineContainer}>
-            <div className={Styles.line1} />
-              </div>
-              <div className={Styles.lineContainer}>
-            <div className={Styles.line2} />
-              </div> */}
+          <div
+            className={`${Styles.expandIcon} ${
+              this.state.visible === index ? Styles.expandedIcon : ""
+            }`}
+          >
+            <div className={Styles.lineContainer1}>
+              <div className={Styles.line1} />
+            </div>
+            <div className={Styles.lineContainer2}>
+              <div className={Styles.line2} />
+            </div>
           </div>
         </div>
         <div

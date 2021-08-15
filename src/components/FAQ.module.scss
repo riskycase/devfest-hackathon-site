@@ -1,6 +1,9 @@
 .faqContainer {
   --transition-time: 250ms;
   padding: 1rem;
+  @media (max-width: 768px) {
+    padding: 0.25rem;
+  }
   margin: 1rem 0;
   border-radius: 0.5rem;
   border: solid var(--primary-color) 1px;
@@ -11,54 +14,77 @@
     padding: 0.5rem;
     border-radius: 1rem;
     .qa {
-      padding: 1rem 2rem;
+      border-top: solid var(--primary-color) 1px;
+      padding: 1rem;
       line-height: 1.5;
+      transition: height var(--transition-time);
       .questionContainer {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         .question {
-          margin: 0;
           font-size: 1.5rem;
         }
         .expandIcon {
+          --size: 1rem;
           display: block;
-          height: 1rem;
-          width: 1rem;
-          position: relative;
-          .lineContainer {
+          height: var(--size);
+          width: var(--size);
+          .lineContainer1,
+          .lineContainer2 {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            height: var(--size);
+            width: var(--size);
+          }
+          .line1,
+          .line2 {
             display: block;
-            height: 1rem;
-            width: 1rem;
-            position: absolute;
-            top: 0;
-            left: 0;
-            .line1,
-            .line2 {
-              display: block;
-              height: 0.125rem;
-              width: 1rem;
-              position: absolute;
-              top: 0.5rem;
-              left: 0.5rem;
-              transform: translate(-0.25rem, -0.0625rem);
-              background-color: var(--secondary-text);
-            }
-            .line2 {
-              transform-origin: center;
-              transform: rotate(90deg);
-            }
+            height: calc(var(--size) / 8);
+            width: var(--size);
+            background-color: var(--secondary-text);
+            transition: transform var(--transition-time);
+          }
+          .lineContainer2 {
+            transform: translate(0, calc(-1 * var(--size)));
+          }
+          .line2 {
+            transform-origin: center;
+            transform: rotate(90deg);
+          }
+        }
+      }
+      .expandedIcon {
+        .lineContainer1 {
+          .line1 {
+            transform: rotate(135deg);
+          }
+        }
+        .lineContainer2 {
+          .line2 {
+            transform: rotate(-135deg);
           }
         }
       }
       .answerContainer {
+        font-size: 1.25rem;
         max-height: 50rem;
+        transition: max-height var(--transition-time);
+        overflow: hidden;
+        .answer {
+          padding: 1rem;
+          @media (max-width: 768px) {
+            padding: 0.25rem;
+          }
+        }
       }
       .hidden {
         max-height: 0;
-        .answer {
-          visibility: hidden;
-        }
       }
+    }
+    > :first-child {
+      border-top: none;
     }
   }
 }
