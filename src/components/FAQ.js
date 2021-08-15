@@ -136,11 +136,13 @@ class FAQ extends React.Component {
         answer: (
           <div className={Styles.answer}>
             Inflation is the measurement of the rate at which the price of
-            substances is increasing. Let&#39;s say you are in your 20&#39;s
-            &amp; you want to retire at the age of 50 and you aim to reach a
-            position where you have enough money that you don&#39;t have to work
-            any more. Your children have good education facilities and their
-            responsibilities are taken care of.
+            substances is increasing.
+            <br />
+            Let&#39;s say you are in your 20&#39;s &amp; you want to retire at
+            the age of 50 and you aim to reach a position where you have enough
+            money that you don&#39;t have to work any more. Your children have
+            good education facilities and their responsibilities are taken care
+            of.
             <br />
             To reach this level, only rate of return is not enough, but
             what&#39;s equally important is what will be the{" "}
@@ -168,6 +170,89 @@ class FAQ extends React.Component {
             <strong>All Weather Investing</strong>, is the best pick for most
             individuals at their 20&#39;s. If you&#39;re looking for a low risk
             investment, then this is the best way to invest.
+          </div>
+        )
+      },
+      {
+        question: <div className={Styles.question}>What is FD?</div>,
+        answer: (
+          <div className={Styles.answer}>
+            FD, which stands for fixed deposit, is a method of investment in
+            which you can deposit your money for a fixed tenure with a bank or
+            any NBFCs and earn interest on it. Once the FD has matured, you get
+            back the principal amount that you invested along with interest.
+          </div>
+        )
+      },
+      {
+        question: (
+          <div className={Styles.question}>
+            What are the benefits of investing in FDs?
+          </div>
+        ),
+        answer: (
+          <div className={Styles.answer}>
+            <ul>
+              {[
+                {
+                  heading: "The habit of savings",
+                  notes:
+                    "Saving is an important aspect of financial planning and FD teaches you the same by providing interest on your savings. This encourages depositors to save more and deposit more."
+                },
+                {
+                  heading: "Returns are guaranteed",
+                  notes:
+                    "FDs don’t depend on the market fluctuations to provide the respective interest rate along with the principal amount at the end of the deposit tenure."
+                },
+                {
+                  heading: "They're Convenient",
+                  notes:
+                    "The tenure of the deposit starts from even & days and goes until 10 years (or 20 years in some banks). A person can select a tenure which suits their needs."
+                },
+                {
+                  heading: "No Maintenance",
+                  notes:
+                    "Once you deposit the money, your job is done. You can now relax and just receive the maturity amount once the FD matures."
+                },
+                {
+                  heading: "Secured",
+                  notes: "FD investments are totally safe and secure."
+                },
+                {
+                  heading: "Tax saving",
+                  notes:
+                    "You can claim tax deduction of upto 1.5 lakhs when you choose tax saver FD with a minimum lock-in period of 5 years."
+                },
+                {
+                  heading: "Highly liquid",
+                  notes: "The investment can be liquidated whenever you want."
+                }
+              ].map((note, index) => (
+                <li key={index}>
+                  <strong>{note.heading}:</strong> {note.notes}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      },
+      {
+        question: (
+          <div className={Styles.question}>
+            Why shouldn&#39;t a person in their 20&#39;s-30&#39;s put money in
+            FDs?
+          </div>
+        ),
+        answer: (
+          <div className={Styles.answer}>
+            Most of the investors believe that when you start investing in your
+            early 20&#39;s you have a long time to sustain the market, hence you
+            take up risks which let you grow your money rather than protecting
+            it, because inflation will eat up more than half of the profits from
+            your FDs when they mature.
+            <br />
+            So it&#39;s best suited for 40/45+ who want to protect their money
+            to sustain their old age in the form of a pension.
           </div>
         )
       }
