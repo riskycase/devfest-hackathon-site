@@ -27,7 +27,9 @@ export default function Template({
           {!!frontmatter.thumbnail && (
             <div
               className="post-thumbnail"
-              style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
+              style={{
+                backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0) 100%), url(${frontmatter.thumbnail})`
+              }}
             >
               <h1 className="post-title">{frontmatter.title}</h1>
             </div>

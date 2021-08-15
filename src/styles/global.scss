@@ -111,7 +111,7 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 1.25rem 0;
+  padding: 1.25rem 1rem;
   background: var(--site-header);
   margin-bottom: 2rem;
   align-items: center;
@@ -181,17 +181,20 @@ a {
 }
 .post-thumbnail {
   text-align: center;
-  min-height: 24rem;
-  //background-image: url('/assets/circles-light.png');
+  min-height: clamp(8rem, 52vw, 27rem);
+  max-width: 48rem;
+  // background-image: url('/assets/circles-light.png');
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 1.25rem;
+  margin: 0 auto;
   margin-bottom: 2.25rem;
   color: var(--featured-text);
-  display: grid;
-  align-content: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   position: relative;
   padding: 1.25rem;
   overflow: hidden;
