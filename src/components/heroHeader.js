@@ -32,13 +32,7 @@ export default () => (
               these the questions bothering you too? Or do you feel you need to
               understand more concepts before making your first investment? So,
               here it is. We will be trying to clarify all those and educate
-              you. Here is our beginner investing guide, and John will be taking
-              you through a tour. So here is risky, 20 yrs old, who thinks
-              stocks is a completely complicated concept to understand,
-              something which gets through a broker, or goes through his dad’s
-              friend who handles money, what he is doing with his money is right
-              or not. John tries to simply explain Risky, how he can buy stocks
-              and invest in stocks.
+              you.
             </p>
           </div>
         </div>
