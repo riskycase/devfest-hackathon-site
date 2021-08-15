@@ -221,6 +221,62 @@ export default () => (
               <strong>gold</strong>, a <strong>mixed</strong> portfolio.
             </p>
           )
+        },
+        {
+          sender: "FAQ",
+          content: (
+            <p>
+              Why should one invest in their <strong>20s</strong>?
+            </p>
+          )
+        },
+        {
+          sender: "FAQ",
+          content: (
+            <p>
+              The main advantage of investing at this point of life is to obtain
+              the benefits of <strong>compounding</strong> and be free to take
+              higher risks with a monthly salary. If you start investing from
+              the age of 20 until you&#39;re 30, there are more chances of you{" "}
+              <strong>not facing</strong> the <strong>dearth</strong> of money,
+              but you&#39;ll have to invest <strong>consistently</strong> for
+              the next 10 years.
+            </p>
+          )
+        },
+        {
+          sender: "FAQ",
+          content: (
+            <p>
+              What about <strong>Inflation</strong>?
+            </p>
+          )
+        },
+        {
+          sender: "FAQ",
+          content: (
+            <p>
+              Inflation is the measurement of the <strong>rate</strong> at which
+              the <strong>price</strong> of substances is{" "}
+              <strong>increasing</strong>. Let&#39;s say you are in your 20s
+              &amp; you want to retire at the age of 50 and you aim to reach a
+              position where you have enough money that you don&#39;t have to
+              work anymore. Your children have good education facilities and
+              their responsibilities are taken care of.{" "}
+            </p>
+          )
+        },
+        {
+          sender: "FAQ",
+          content: (
+            <p>
+              To reach this level, <strong>only rate of return</strong> is not
+              enough, but what&#39;s equally important is what will be the{" "}
+              <strong>value</strong> of that money at some particular instance.
+              Hence, you have to look at <strong>inflation-adjusted</strong>{" "}
+              rate of return and not just the rate of return.
+            </p>
+          )
         }
       ].map((text, index) =>
         text.sender === "John" ? (
