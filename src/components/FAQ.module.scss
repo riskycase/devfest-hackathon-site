@@ -12,12 +12,13 @@
     border-radius: 1rem;
     .qa {
       padding: 1rem 2rem;
-      font-size: 1.5rem;
+      line-height: 1.5;
       .questionContainer {
         display: flex;
         align-items: center;
         .question {
           margin: 0;
+          font-size: 1.5rem;
         }
         .expandIcon {
           display: block;
@@ -50,7 +51,7 @@
         }
       }
       .answerContainer {
-        max-height: 25rem;
+        max-height: 50rem;
       }
       .hidden {
         max-height: 0;
