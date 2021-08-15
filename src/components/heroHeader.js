@@ -20,48 +20,9 @@ export default () => (
       const texts = [
         {
           sender: "Risky",
-          content: <p>What are stocks or shares?</p>
-        },
-        {
-          sender: "John",
           content: (
             <p>
-              Stocks are simply the shares that are in the company. Share means
-              one certain part of the company. The bigger the company is, the
-              larger shares will be there, And every share will have a cost.
-              Thus you are buying a part of the company, and you have faith in
-              it. So let’s assume that you have an Internet and mobile
-              connection of Jio, and you feel that Jio has made your life
-              easier. Therefore, you feel that Jio is an excellent company, you
-              know you are a customer of Jio and there are a lot of people who
-              are using their services, so you think “Why don’t I buy some
-              shares of this company?” Then in this way, you are showing
-              confidence in the company. And this is stock Investment. It is
-              your commitment to a certain company and its future.
-            </p>
-          )
-        },
-        {
-          sender: "Risky",
-          content: <p>What does buying stocks mean? Why DEMAT account?</p>
-        },
-        {
-          sender: "John",
-          content: (
-            <p>
-              Today, everything is Digital. And you hold stocks which you buy in
-              something called a DEMAT account. So a DEMAT account has all your
-              stocks or shares which you have purchased from different
-              companies. So you need a DEMAT account to buy and sell stocks.
-            </p>
-          )
-        },
-        {
-          sender: "Risky",
-          content: (
-            <p>
-              Which stocks should I pay to buy? How many should I buy? How long
-              should I keep?
+              What are <strong>stocks</strong>?
             </p>
           )
         },
@@ -69,44 +30,31 @@ export default () => (
           sender: "John",
           content: (
             <p>
-              Hmm. so these are all the natural questions an early investor has
-              with the stock market. And these can be extremely intimidating.
-              There are a lot of strategies one might use while doing stock
-              marketing. There is this one thing you need to understand, if you
-              want to be really good at it, it does require a lot of time. And
-              there are people who do this full-time. For some people, this is
-              their profession to invest in the stock market, and they come up
-              with their own strategies of how much to spend, what should be the
-              quantity and how long it should be kept. Now, you won’t be able to
-              think about them because you have your own job, own things to do,
-              and I totally get that. So you can do what’s already there in the
-              market, that is Mutual Funds.
+              <strong>John</strong>: Stocks are simply the shares a company has
+              at present. A <strong>share</strong> is a certain part of the
+              company. The bigger the company is, the larger shares are present,
+              and every share will have a <strong>price</strong>. You need have
+              faith in it&#39;s <strong>growth</strong>, since you&#39;ll be
+              buying a part of it.
             </p>
           )
-        },
-        {
-          sender: "Risky",
-          content: <p>What are mutual funds?</p>
         },
         {
           sender: "John",
           content: (
             <p>
-              Mutual funds are a portfolio of Stock, which is being managed by
-              someone, lets name him fund manager, and that fund manager has a
-              target of return which is the return that you get on your money,
-              and because of that he buys a group of shares or stocks, and you
-              invest in the fund manager’s stock portfolio, and based on his
-              expertise, his analysis and research team, he invests in those
-              stocks. Now, mutual funds have been there for a long time. And
-              hence there are few cons about it. Firstly,They are not
-              Transparent, which means the stocks belong to someone else. So in
-              your account you will only see some units of the mutual fund,
-              which you buy. so , instead of buying stocks or shares of a
-              company, you are buying units of a mutual fund. Secondly, you have
-              to pay fees called fund fees or a manager’s fees as your money is
-              being managed by someone else. So there is always some money which
-              gets deducted when investing.
+              So let&#39;s assume that you own couple of <strong>Jio</strong>
+              &#39;s products &amp; you&#39;re pretty satisfied with it. You
+              feel Jio has made your life easier. You know that being a customer
+              who&#39;s <strong>satisfied</strong> with their services and aware
+              that there are a lot more people out there who are using their
+              services. So now you feel,
+              <strong>&quot;Why don&#39;t I buy some of Jio</strong>&#39;s{" "}
+              <strong>shares?&quot;</strong>
+              This is called as a <strong>Stock Investment</strong>. You
+              invested in Jio since you&#39;re confident about it&#39;s growth
+              &amp; <strong>commited</strong> to it and it&#39;s{" "}
+              <strong>future</strong>.
             </p>
           )
         },
@@ -114,8 +62,8 @@ export default () => (
           sender: "Risky",
           content: (
             <p>
-              Why don’t you suggest some platforms or ways for my early
-              investing?
+              What does buying stocks mean? What is a <strong>DEMAT</strong>{" "}
+              account?
             </p>
           )
         },
@@ -123,15 +71,154 @@ export default () => (
           sender: "John",
           content: (
             <p>
-              Okay, so I found something really really interesting, and that’s
-              called smallcase, an independent company connected to Zerodha. And
-              what they do is, think of it like a portfolio of stocks or shares
-              but with no negative of what a mutual fund does. Smallcase is a
-              name given to a group of portfolios, so my personal pick for you
-              is the smallcase called “all-weather investing.” If you want to
-              invest with a low risk, then its the best way to invest. So this
-              small case consists of equity/stocks, debt and gold, a mixed
-              portfolio.
+              We&#39;re living in a <strong>digital</strong> world. Stocks can
+              be bought and sold digitally. Your stocks or shares which you have
+              purchased from
+              <strong>different</strong> companies are held in something called
+              a <strong>DEMAT</strong> account. Therefore, you need a DEMAT
+              account to buy and sell stocks.
+            </p>
+          )
+        },
+        {
+          sender: "Risky",
+          content: (
+            <p>
+              What stocks to buy? How <strong>many</strong> should I buy? How{" "}
+              <strong>long</strong> should I keep?
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              Hmm. So these are all the <strong>natural</strong> questions an
+              early investor has regarding the stock market, and these can be
+              extremely <strong>intimidating</strong>. There are a lot of{" "}
+              <strong>strategies</strong> one might use while
+              <strong>trading</strong> in the stock market. If you want to{" "}
+              <strong>understand</strong> it quite a bit, it requires a lot of{" "}
+              <strong>time</strong> &amp; <strong>experience</strong>.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              There are people who do this <strong>full-time</strong>. It&#39;s
+              their profession to invest in the stock market, and come up with{" "}
+              <strong>strategies</strong> on how to spend &amp; how long it
+              should be kept. Now, we know it&#39;s not{" "}
+              <strong>everyone&#39;s piece of cake</strong> since we have our{" "}
+              <strong>jobs</strong>,<strong>own things to deal with</strong>,
+              and I totally get that.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              So what else can you do? <strong>Mutual Funds</strong>.
+            </p>
+          )
+        },
+        {
+          sender: "Risky",
+          content: (
+            <p>
+              What are <strong>Mutual Funds</strong>?
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              Mutual funds are <strong>portfolio</strong> of a Stock, which is
+              being managed by someone, Say, a <strong>Fund Manager</strong>.
+              He/She has a <strong>target</strong> of return which is the{" "}
+              <strong>return</strong> that you get on your investment, and
+              because of that he <strong>purchases</strong> a group of shares or
+              stocks. Next, you invest in his/her stock portfolio and based on
+              his <strong>expertise</strong>, <strong>analysis</strong> and{" "}
+              <strong>research</strong> team, he invests in those stocks.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              Now, mutual funds have been there for a <strong>long</strong>{" "}
+              time. Hence there are few <strong>cons</strong> about it.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              <strong>Firstly</strong>, they&#39;re not{" "}
+              <strong>transparent</strong>, which means the stocks
+              <strong>belong to someone else</strong>. So, you&#39;re going to
+              see only <strong>some units</strong> of the mutual fund which you
+              buy in your account. So <strong>instead</strong> of purchasing
+              stocks or <strong>shares</strong> of a<strong>company</strong>,
+              you are buying <strong>units</strong> of a mutual fund.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              <strong>Secondly</strong>, you have to pay a fee called{" "}
+              <strong>fund fee</strong> or a manager&#39;s fee, since your money
+              is being <strong>managed</strong> by <strong>someone else</strong>
+              . So it&#39;s obvious that some money is deducted during the
+              investment.
+            </p>
+          )
+        },
+        {
+          sender: "Risky",
+          content: (
+            <p>
+              Why don&#39;t you suggest some platforms or ways for my early
+              investment?
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              Okay, so I found something really <strong>interesting</strong>,
+              and it&#39;s called <strong>Smallcase</strong>, an{" "}
+              <strong>independent</strong> company connected to{" "}
+              <strong>Zerodha</strong>. The idea here is, think of it like a{" "}
+              <strong>portfolio</strong>
+              of stocks or shares but <strong>minus</strong> the{" "}
+              <strong>negatives</strong> of mutual fund.
+              <strong>Smallcase</strong> is a name given to a{" "}
+              <strong>group</strong> of <strong>portfolios</strong>. I
+              personally think, the smallcase called as{" "}
+              <strong>All Weather Investing</strong> is the best pick for you.
+              If you&#39;re looking for a <strong>low risk</strong> investment,
+              then this is the best way to invest.
+            </p>
+          )
+        },
+        {
+          sender: "John",
+          content: (
+            <p>
+              To summarise, <strong>smallcase</strong> consists of{" "}
+              <strong>equity/stocks</strong>,<strong>debt</strong> and{" "}
+              <strong>gold</strong>, a <strong>mixed</strong> portfolio.
             </p>
           )
         }
