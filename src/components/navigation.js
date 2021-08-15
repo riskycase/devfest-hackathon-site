@@ -4,7 +4,6 @@ import ThemeChanger from "../components/themeChanger";
 
 export default props => (
   <nav className="navigation">
-    <Link to="/faq">FAQ</Link>
     <ThemeChanger />
   </nav>
 );

@@ -202,7 +202,7 @@ class FAQ extends React.Component {
       </div>
     ));
     return (
-      <div className={Styles.faqContainer}>
+      <div className={Styles.faqContainer} id="faq">
         <h2>FAQs</h2>
         <div className={Styles.faqs}>{qas}</div>
       </div>
