@@ -24,15 +24,22 @@ export default () => (
           </h1>
           <div className={Styles.introduction}>
             <p>
-              We do know that there is something called the stock market, and we
-              know that we can earn money or lose. BUT, how do we invest in
-              stocks? What is the mechanism through which you buy stocks? What
-              does buying stocks mean? Is it risky to invest in the stock
-              market? Which stocks should you buy? What are mutual funds? - are
-              these the questions bothering you too? Or do you feel you need to
-              understand more concepts before making your first investment? So,
-              here it is. We will be trying to clarify all those and educate
-              you.
+              We know that there&#39;s something called the Stock Market, where
+              we either make money or lose. But,
+            </p>
+            <ul>
+              <li>How exactly do we invest in stocks? </li>
+              <li>What is the mechanism behind buying stocks? </li>
+              <li>What does buying stocks mean? </li>
+              <li>Is it risky to invest in the stock market? </li>
+              <li>What should I invest in? </li>
+              <li>What are mutual funds?</li>
+            </ul>
+            <p>
+              Do these questions bother you too? Or do you feel you need to
+              understand in-depth before making your first investment?
+              <br />
+              Come with us now on a journey through the Stock Market.
             </p>
           </div>
         </div>

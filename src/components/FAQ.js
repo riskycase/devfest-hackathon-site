@@ -42,7 +42,7 @@ class FAQ extends React.Component {
             company&#39;s <strong>growth</strong>, since you&#39;ll be buying a
             part of it.
             <br />
-            So let&#39;s assume that you own couple of Jio &#39;s products &amp;
+            So let&#39;s assume that you own couple of Jio&#39;s products &amp;
             you&#39;re pretty satisfied with it. You feel Jio has made your life
             easier. You know that being a customer who&#39;s satisfied with
             their services and aware that there are a lot more people out there
@@ -51,8 +51,8 @@ class FAQ extends React.Component {
               &quot;Why don&#39;t I buy some of Jio&#39;s shares?&quot;
             </strong>
             . This is called as a <strong>stock investment</strong>. You
-            invested in Jio since you&#39;re confident about it&#39;s growth
-            &amp; commited to it and it&#39;s future.
+            invested in Jio since you&#39;re confident about its growth &amp;
+            committed to it and its future.
           </div>
         )
       },
@@ -84,8 +84,8 @@ class FAQ extends React.Component {
             These are all the natural questions an early investor has regarding
             the stock market, and these can be extremely intimidating. There are
             a lot of strategies one might use while trading in the stock market.
-            If you want to understand it quite a bit, it requires a lot of
-            time&amp;experience.
+            If you want to understand it quite a bit, it requires a lot of time
+            &amp; experience.
             <br />
             There are people who do this full-time. It&#39;s their profession to
             invest in the stock market, and come up with{" "}
@@ -139,7 +139,7 @@ class FAQ extends React.Component {
             substances is increasing. Let&#39;s say you are in your 20&#39;s
             &amp; you want to retire at the age of 50 and you aim to reach a
             position where you have enough money that you don&#39;t have to work
-            anymore. Your children have good education facilities and their
+            any more. Your children have good education facilities and their
             responsibilities are taken care of.
             <br />
             To reach this level, only rate of return is not enough, but
@@ -164,7 +164,7 @@ class FAQ extends React.Component {
             independent company connected to <strong>Zerodha</strong>. The idea
             here is, think of it like a portfolio of stocks or shares without
             the negatives of mutual fund. Smallcase is a name given to a{" "}
-            <strong>group of portfolios</strong>.Smallcase, sometimes called as{" "}
+            <strong>group of portfolios</strong>. Smallcase, sometimes called as{" "}
             <strong>All Weather Investing</strong>, is the best pick for most
             individuals at their 20&#39;s. If you&#39;re looking for a low risk
             investment, then this is the best way to invest.
