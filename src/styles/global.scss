@@ -15,6 +15,7 @@ body.light {
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
+  --secondary-text: #fff;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -35,6 +36,7 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
+  --secondary-text: #fff;
   --background: #0a041a;
   --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
@@ -57,6 +59,12 @@ body {
   border-top: 0.5rem solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2.5rem;
 }
 a {
   color: var(--primary-color);
@@ -106,14 +114,6 @@ a {
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
-}
-.hero-header {
-  margin: 0 auto;
-}
-.headline {
-  font-size: 2.25rem;
-  font-weight: 900;
-  margin-bottom: 0.5rem;
 }
 .button {
   padding: 1.25rem 1.75rem;
