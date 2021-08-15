@@ -15,6 +15,7 @@ body.light {
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
+  --secondary-text: #fff;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -35,6 +36,7 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
+  --secondary-text: #fff;
   --background: #0a041a;
   --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
@@ -58,6 +60,19 @@ body {
   background-color: var(--background);
   color: var(--text-color);
 }
+h1 {
+  font-size: 3.5rem;
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+  margin: 1.5rem;
+}
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -66,7 +81,7 @@ a {
   }
 }
 .site-wrapper {
-  padding: 2rem;
+  padding: 0.25rem;
   max-width: 70rem;
   margin: 0 auto;
   img {
@@ -106,14 +121,6 @@ a {
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
-}
-.hero-header {
-  margin: 0 auto;
-}
-.headline {
-  font-size: 2.25rem;
-  font-weight: 900;
-  margin-bottom: 0.5rem;
 }
 .button {
   padding: 1.25rem 1.75rem;
@@ -208,43 +215,10 @@ a {
   }
 }
 .grids {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  margin-top: 2rem;
-}
-.card {
-  display: grid;
-  background-color: var(--card-bg);
-  border-radius: 0.5rem;
-  border: 1px solid var(--card-bdr);
-  box-shadow: 0 0 2rem var(--card-shadow);
-  overflow: hidden;
-  line-height: 1.5;
-  &:hover .post-link {
-    color: var(--primary-color);
-  }
-  > a img {
-    display: block;
-  }
-  > header {
-    padding: 1.5rem;
-  }
-  > h2:first-child {
-    margin: 0 0 0.5rem 0;
-  }
-  .post-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-  }
-  .post-meta {
-    font-weight: 100;
-    margin-bottom: 0;
-  }
-  .post-link {
-    color: var(--text-color);
-    text-decoration: none;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .post-meta {
   font-size: 0.8rem;
