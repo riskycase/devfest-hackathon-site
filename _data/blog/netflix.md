@@ -83,12 +83,15 @@ Therefore, I say Netflix is in trouble again. Now, I am not saying that Netflix 
   Can Netflix match the content production both in terms of **quality** and **quantity** with giants like Disney and HBO?
 
 - Question 3:
+
   Is it going **leave** its market leader position and just be yet another app
   that people have opted in for?
 
 And
 
-- The last question: Would it partner with a giant like Walmart to serve as a loss leader to help Walmart compete with Amazon?
+- The last question:
+
+  Would it partner with a giant like Walmart to serve as a loss leader to help Walmart compete with Amazon?
 
 ## Conclusion
 

@@ -108,6 +108,31 @@ a {
     }
   }
 }
+table {
+  margin: 1rem auto;
+  border-spacing: 0;
+  thead {
+    tr {
+      th {
+        padding: 0.5rem;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        border-top: solid var(--primary-color) 1px;
+        text-align: center;
+        padding: 0.125rem 0;
+      }
+    }
+    :first-child {
+      td {
+        border-top: solid var(--text-color) 2px;
+      }
+    }
+  }
+}
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -163,6 +188,21 @@ a {
   > .blog-post-content {
     max-width: 760.5rem;
     margin: 0 auto;
+    padding: 0.25rem;
+    > h2 {
+      margin: 1rem;
+    }
+    > ul {
+      margin: 0rem;
+      padding: 0.25rem 1rem;
+      > li {
+        margin: 0.75rem 0.25rem;
+        margin-top: 0;
+        > p {
+          margin: 0.25rem 0;
+        }
+      }
+    }
   }
   > .blog-post-content *:last-child,
   > *:last-child {
