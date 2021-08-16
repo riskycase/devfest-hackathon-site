@@ -82,3 +82,19 @@ The best part about SIPs is that you can automate your payments by giving a stan
   > Most investors look to chase quick returns. But in the attempt to earn quick money, they can make mistakes that could result in big losses. As we have seen, the power of compounding magnifies over time. Hence, it can help to have a long-term approach towards investing. One must invest **patiently** that could reap healthy returns over time.
 
 You don't need to be a financial expert to benefit from the power of compounding. Every investor can take advantage of this concept and put it to good use. So, start investing today to enjoy a great future.
+
+## Credits
+
+- [Stock Market for Beginners | Investing Strategies 2021](https://youtu.be/hIYSxqrraWA)
+- [Mutual Funds for Beginners 2021 | How to Invest in Mutual Funds?](https://youtu.be/4CbX0WsHIKk)
+- [Should you Invest in Gold? | Investment Strategy 2021 for Beginners](https://youtu.be/WDypUuRJdJs)
+- [Share market investing in 2021 | Stock Market for Beginners | Basics of Stock Market](https://youtu.be/POdzdc-WNOY)
+
+## Suggestions
+
+Here are some tools & apps we recommend you to start with:
+
+- [Stock analysis](https://www.tickertape.in)
+- [Zerodha (Kite)](https://play.google.com/store/apps/details?id=com.zerodha.kite3)
+- [Groww](https://play.google.com/store/apps/details?id=com.nextbillion.groww)
+- [Upstox](https://play.google.com/store/apps/details?id=in.upstox.pro)
