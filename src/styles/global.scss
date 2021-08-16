@@ -1,5 +1,4 @@
-$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-  Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-family: "Quicksand", sans-serif;
 
 html,
 body {
@@ -56,6 +55,7 @@ body.dark {
 /* System Fonts as used by Medium and WordPress */
 body {
   font-family: $font-family;
+  font-weight: 400;
   border-top: 0.5rem solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
@@ -108,10 +108,35 @@ a {
     }
   }
 }
+table {
+  margin: 1rem auto;
+  border-spacing: 0;
+  thead {
+    tr {
+      th {
+        padding: 0.5rem;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        border-top: solid var(--primary-color) 1px;
+        text-align: center;
+        padding: 0.125rem 0;
+      }
+    }
+    :first-child {
+      td {
+        border-top: solid var(--text-color) 2px;
+      }
+    }
+  }
+}
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 1.25rem 0;
+  padding: 1.25rem 1rem;
   background: var(--site-header);
   margin-bottom: 2rem;
   align-items: center;
@@ -163,6 +188,21 @@ a {
   > .blog-post-content {
     max-width: 760.5rem;
     margin: 0 auto;
+    padding: 0.25rem;
+    > h2 {
+      margin: 1rem;
+    }
+    > ul {
+      margin: 0rem;
+      padding: 0.25rem 1rem;
+      > li {
+        margin: 0.75rem 0.25rem;
+        margin-top: 0;
+        > p {
+          margin: 0.25rem 0;
+        }
+      }
+    }
   }
   > .blog-post-content *:last-child,
   > *:last-child {
@@ -181,17 +221,20 @@ a {
 }
 .post-thumbnail {
   text-align: center;
-  min-height: 24rem;
-  //background-image: url('/assets/circles-light.png');
+  min-height: clamp(8rem, 52vw, 27rem);
+  max-width: 48rem;
+  // background-image: url('/assets/circles-light.png');
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 1.25rem;
+  margin: 0 auto;
   margin-bottom: 2.25rem;
   color: var(--featured-text);
-  display: grid;
-  align-content: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   position: relative;
   padding: 1.25rem;
   overflow: hidden;

@@ -11,6 +11,12 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+        rel="stylesheet"
+      />
       <Helmet>
         <title>
           {frontmatter.title} | {siteMetadata.title}
@@ -22,16 +28,16 @@ export default function Template({
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
           {!!frontmatter.thumbnail && (
             <div
               className="post-thumbnail"
-              style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
+              style={{
+                backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0) 100%), url(${frontmatter.thumbnail})`
+              }}
             >
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
           <div
